@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Страница товара</title>
+		<link rel="stylesheet" href="Product_page_style.css">
+	</head>
+	<body class="page">
+		<header class="header page__header">
+			<div class="dropdown  header__menu">
+				<div class="menu button dropdown__button">
+					Навигация
+				</div>
+				<div class="dropdown__content">
+					<a class="dropdown__item" href="#">Пункт 1</a>
+					<a class="dropdown__item" href="#">Пункт 2</a>
+					<a class="dropdown__item" href="#">Пункт 3</a>
+				</div>
+			</div>
+			<div class="search header__search">
+				<form class="search__form flex-group">
+					<input type="text" class="search__text-area">
+					<div class="button button_search">
+						<img class="search__image" src="Images/Image_search.png">
+					</div>
+				</form>
+			</div>
+			<div class="flex-group">
+				<div class="autorization button header__autorization">
+					Войти
+				</div>
+				<div class="dropdown">
+					<div class="shoping-basket dropdown__button button header__shoping-basket">
+						Корзина
+					</div>
+					<div class="dropdown__content dropdown_shoping-busket">
+						
+					</div>
+				</div>
+			</div>
+		</header>
+		<main class="page__main">
+			<div class="page__content">
+				<div class="gallery page__block page__block_short">
+					<img class="gallery__main-image" src="Images/Image_1.jpg">
+					<div class="gallery__carousel">
+						<div class="button button_left button_arrow">ᐊ</div>
+						<div class="gallery__minor-images">
+							<ul class="gallery__thumbs">
+								<li><img class="gallery__minor-image" src="Images/Image_1.jpg"></li>
+								<li><img class="gallery__minor-image" src="Images/Image_2.jpg"></li>
+								<li><img class="gallery__minor-image" src="Images/Image_3.jpg"></li>
+								<li><img class="gallery__minor-image" src="Images/Image_4.jpg"></li>
+								<li><img class="gallery__minor-image" src="Images/Image_5.jpg"></li>
+								<li><img class="gallery__minor-image" src="Images/Image_6.jpg"></li>
+								<li><img class="gallery__minor-image" src="Images/Image_7.jpg"></li>
+								<li><img class="gallery__minor-image" src="Images/Image_8.jpg"></li>
+							</ul>
+						</div>
+						<div class="button button_right button_arrow">ᐅ</div>
+					</div>
+				</div>
+				<div class="description page__block page__block_short">
+					<div class="description__content">
+						<div class="description__text">
+							<h1>Фен Goodhelper HD-F082 черный</h1>
+							<p class="description__minor-text">Фен Goodhelper HD-F082 представляет собой невероятно компактное устройство 
+								со складной ручкой, которое не потребует много места в дорожной сумке. 
+								При его непосредственном участии вы не только высушите шевелюру, но и придадите ей желаемую форму.
+								Выбор среди 2 температурных и скоростных режимов осуществляется путем переключения 
+								соответствующих кнопок, расположенных на ручке Goodhelper HD-F082. 
+								Мощность 800 Вт позволяет фену мгновенно справляться с любой из 
+								поставленных вами задач. Непрерывное функционирование устройства 
+								производится путем подключения сетевого шнура к розетке с напряжением 220 В.</p>
+						</div>
+					</div>
+					<div class="description__footer">
+						<div class="description__cost">
+							<p>280 Р</p>
+						</div>
+						<div class="button description__button">
+							Купить
+						</div>
+					</div>
+				</div>
+				<div class="comments page__block page__block_wide">
+					<div class="comments__section">
+					</div>
+					<form class="comments__form">
+						<textarea class="comments__text-area"></textarea>
+						<div class="button comments__button">
+							Отправить
+						</div>
+					</form>
+				</div>
+			</div>
+			
+			<div class="autorization-window">
+				<div class="autorization-window__block">
+					<h3>Авторизация</h1>
+					<div class="autorization-window__input-block">
+						<p>Введите имя пользователя</p>
+						<input type="text" class="autorization-window__textarea">
+					</div>
+					<div class="autorization-window__buttons">
+						<button class="button button_autorization">Ok</button>
+						<button class="button button_autorization">Отмена</button>
+					</div>
+				</div>
+			</div>
+		</main>
+		<footer class="footer page__footer">
+		</footer>
+		
+		<script src="Product_page_gallery_script.js"></script>
+		<script async src="Product_page_comment_script.js"></script>
+		<script async src="Product_page_autorization_script.js"></script>
+		<script async src="Product_page_dropdown_navigation_script.js"></script>
+		<script async src="Product_page_dropdown_busket_script.js"></script>
+		<script async src="Product_page_buy_script.js"></script>
+	</body>
+</html>
